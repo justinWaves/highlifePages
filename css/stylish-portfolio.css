@@ -103,9 +103,8 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/HL-Main-header2.jpg");
-  background-position: center center;
+  background:  url("../img/HL-Main-header2.jpg");
+  background-position: 25% center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -230,9 +229,9 @@ h6 {
   padding: 50px;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/HL-header3.jpg");
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/HL-header3.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-position: 75% 80%;
+  background-repeat: vertical;
+  background-size:;
 }
 
 .callout h2 {
@@ -312,7 +311,6 @@ h6 {
 }
 
 footer.footer {
-  margin-top: -200px;
   padding-bottom: 2rem;
 }
 
@@ -384,6 +382,33 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #FFF !important;
+}
+
+
+.contactButtonContain{
+    position: absolute;
+    top: 80%;
+    left:13%;
+    display: flex;
+   padding-top: 1px;
+   
+}
+
+.contactButtons{
+    color: white;
+    
+    width: 50px;
+    height:50px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 100%;
+    border-width: 2px;
+    margin: 20px;
+    
+    display: flex;
+     align-items: center;
+    padding-left: 12.5px;
+    
 }
 
 
